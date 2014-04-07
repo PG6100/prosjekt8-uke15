@@ -1,4 +1,4 @@
-package no.nith;
+package no.nith.pg6100;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.junit.After;

@@ -1,4 +1,4 @@
-package no.nith;
+package no.nith.pg6100;
 
 import org.glassfish.grizzly.http.server.HttpServer;
 import org.glassfish.jersey.grizzly2.httpserver.GrizzlyHttpServerFactory;
@@ -11,7 +11,7 @@ public class Main {
     public static final String BASE_URI = "http://localhost:8080/minapp/";
 
     public static HttpServer startServer() {
-        final ResourceConfig rc = new ResourceConfig().packages("no.nith");
+        final ResourceConfig rc = new ResourceConfig().packages("no.nith.pg6100");
         return GrizzlyHttpServerFactory.createHttpServer(URI.create(BASE_URI), rc);
     }
 

@@ -1,4 +1,4 @@
-package no.nith;
+package no.nith.pg6100;
 
 public class Item {
     private String name;

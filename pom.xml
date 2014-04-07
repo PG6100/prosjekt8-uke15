@@ -2,11 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>no.nith</groupId>
+    <groupId>no.nith.pg6100</groupId>
     <artifactId>prosjekt8-uke15</artifactId>
     <packaging>jar</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.1</version>
     <name>prosjekt8-uke15</name>
 
     <dependencyManagement>
@@ -64,7 +63,7 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <mainClass>no.nith.Main</mainClass>
+                    <mainClass>no.nith.pg6100.Main</mainClass>
                 </configuration>
             </plugin>
         </plugins>

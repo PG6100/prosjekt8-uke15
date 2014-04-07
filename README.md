@@ -17,9 +17,13 @@ Oppgaver:
 - legge til metode for å `POST`e en resurs.
 - bruk `DELETE`
 
+Ekstra oppgave:
 
+- legg til JPA i prosjektet
+- lagre `Item` til databasen
+- lese `Item` med id fra databasen
 
-
+Databaseoppsett fra tidligere øvinger kan gjenbrukes.
 
 
 
